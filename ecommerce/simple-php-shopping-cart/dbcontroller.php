@@ -5,7 +5,6 @@ class DBController {
 	private $password = "";
 	private $database = "ecommerce";
 	private $conn;
-	
 	function __construct() {
 		$this->conn = $this->connectDB();
 	}
